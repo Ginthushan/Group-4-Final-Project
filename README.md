@@ -44,6 +44,11 @@ Table 2
 
 ![Capture2](https://user-images.githubusercontent.com/90259988/144961783-4d4f8f1e-ffce-46e7-b2e8-8495056ff59a.PNG)
 
+
+Table 3
+
+![Capture3](https://user-images.githubusercontent.com/90259988/144962286-6aec5141-bab4-441c-ad90-50b3556a0835.PNG)
+
 **Conclusion:**
 
 In the analysis conducted by our group on the dataset containing movie data from four of the biggest streaming platforms readily available and well known to the public sphere, we were able to reach a number of interesting conclusions about the services we use often in our daily lives.
