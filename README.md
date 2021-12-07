@@ -73,3 +73,48 @@ import seaborn as sns
 import numpy as np
 df_data = pd.DataFrame(data)
 ```
+
+To get the Table 1, run the the following code.
+```python
+netflix_run = []
+hulu_run = []
+prime_run = []
+disney_run = []
+
+for row in data:
+    if row['Netflix'] == '1':
+        if row['Runtime'] != '':
+            netflix_run.append(row['Runtime'])
+    if row['Hulu'] == '1':
+        if row['Runtime'] != '':
+            hulu_run.append(row['Runtime'])
+    if row['Prime Video'] == '1':
+        if row['Runtime'] != '':
+            prime_run.append(row['Runtime'])
+    if row['Disney+'] == '1':
+        if row['Runtime'] != '':
+            disney_run.append(row['Runtime'])
+        
+mean = []
+Platforms = ['Netflix', 'Hulu', 'Prime Video', 'Disney+']
+netflix_run = np.array(netflix_run).astype(np.float64)
+hulu_run = np.array(hulu_run).astype(np.float64)
+disney_run = np.array(disney_run).astype(np.float64)
+prime_runn = np.array(prime_run).astype(np.float64)
+
+x = np.mean(netflix_run)
+mean.append(x)
+x = np.mean(hulu_run)
+mean.append(x)
+x = np.mean(disney_run)
+mean.append(x)
+x = np.mean(prime_runn)
+mean.append(x)
+
+
+avg_run = pd.DataFrame(Platforms, index =[1,2,3,4], columns =['Platform'])
+avg_run['Runtime'] = mean
+
+
+avg_run.plot.barh(x='Platform', y='Runtime',figsize=(10,6));
+```
