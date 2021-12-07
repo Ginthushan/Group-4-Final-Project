@@ -25,6 +25,8 @@ To begin with, to determine the best streaming platform we asked ourselves five 
 The first question we asked ourselves was: Are there any review differences between IMDB reviews and Rotten Tomato ratings? If this difference exists, does it create a platform-wide disparity between review averages or are the IMDB ratings and Rotten Tomatoes ratings similar? Using our method we were able to conclude that Rotten Tomatoes has an average rating for their movies of 6,16 and IMDB has an average rating of 5,35. This is a difference of 14% which is not significant enough to say that Rotten Tomatoes and IMDB create a platform average. To summarize we are able to conclude that IMDB and Rotten Tomatoes are two platforms with similar reviews for movies so you shouldn&#39;t worry about a website being unreliable.
 
 The second question was how long was the runtime of the movie with the longest runtime and the runtime of the shortest movie? The longest movie was titled The Irishman which had a runtime of 209 minutes and the shortest runtime was Into The Grand Canyon with 84 minutes. To expand on question 2, we also asked ourselves which platform has the longest and shortest average runtime for the movies they offer. To answer this question we came up with this graph which gives us a lot of information.
+
+
 Table 1.
 
 ![Capture](https://user-images.githubusercontent.com/90259988/144955521-6aa23a4d-0eb7-4726-ba59-7fbc1d194310.PNG)
