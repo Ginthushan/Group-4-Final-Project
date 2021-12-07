@@ -40,12 +40,12 @@ The fourth question was if there was any correlation between the highest rated m
 The final question is based on which subscription is the best bang for your buck in the sense of a value proposition. We did this by figuring out which of the subscriptions had the greatest selection of available movies but also which of them had the greatest selection of vintage movies (movies before the 1990s). The answer to this question turned out to be Prime on both occasions. With a total selection of 4113 total movies and 806 of them being vintage. To futher our answer this question we made the following two graphs.
 
 
-Table 2
+Table 2.
 
 ![Capture2](https://user-images.githubusercontent.com/90259988/144961783-4d4f8f1e-ffce-46e7-b2e8-8495056ff59a.PNG)
 
 
-Table 3
+Table 3.
 
 ![Capture3](https://user-images.githubusercontent.com/90259988/144962286-6aec5141-bab4-441c-ad90-50b3556a0835.PNG)
 
