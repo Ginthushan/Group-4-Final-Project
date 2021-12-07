@@ -61,3 +61,12 @@ Bhatia, R. (2021, 08 02). _Movies on Netflix, Prime Video, Hulu and Disney+_ (3)
 **Read Me**
 
 In order to run our code you would need to install our dataset at [https://www.kaggle.com/ruchi798/movies-on-netflix-prime-video-hulu-and-disney/version/3](https://www.kaggle.com/ruchi798/movies-on-netflix-prime-video-hulu-and-disney/version/3) and import/install numpy, pandas and seaborn if your python does not already contain the existing libraries. Other functions that need to be imported are reduce from functools and basic code to read the csv file.
+
+To run the following files above, the code below should be run.
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+df_data = pd.DataFrame(data)
+```
