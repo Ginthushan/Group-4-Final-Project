@@ -141,3 +141,30 @@ res[3].set_color("#add8e6") # changes one of the bar's colour sky blue
 plt.title('Number of Movies on each platform') # 
 res = plt.show()
 ```
+
+To get the graph in Table 3, run the following code
+```python
+netflix1, hulu1, prime1, disney1 = 0,0,0,0
+
+for row in data:
+    year = row['Year']
+    if year <= '1989':
+        if row['Netflix'] == '1':
+            netflix1 += 1
+        if row['Hulu'] == '1':
+            hulu1 += 1
+        if row['Prime Video'] == '1':
+            prime1 += 1
+        if row['Disney+'] == '1':
+            disney1 += 1
+
+platform_totals1 = [netflix1, hulu1, prime1, disney1]
+
+
+res90 = plt.bar(listOfProvidersNames,platform_totals) # makes the data into a bar graph
+res90[0].set_color('r') 
+res90[1].set_color("g")
+res90[3].set_color("#add8e6")
+plt.title('Number of Movies on each platform before 1990')
+res90 = plt.show()
+```
