@@ -41,6 +41,7 @@ The final question is based on which subscription is the best bang for your buck
 
 
 Table 2
+
 ![Capture2](https://user-images.githubusercontent.com/90259988/144961783-4d4f8f1e-ffce-46e7-b2e8-8495056ff59a.PNG)
 
 **Conclusion:**
