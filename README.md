@@ -26,7 +26,7 @@ The first question we asked ourselves was: Are there any review differences betw
 
 The second question was how long was the runtime of the movie with the longest runtime and the runtime of the shortest movie? The longest movie was titled The Irishman which had a runtime of 209 minutes and the shortest runtime was Into The Grand Canyon with 84 minutes. To expand on question 2, we also asked ourselves which platform has the longest and shortest average runtime for the movies they offer. To answer this question we came up with this graph which gives us a lot of information.
 
-
+![Capture](https://user-images.githubusercontent.com/90259988/144955521-6aa23a4d-0eb7-4726-ba59-7fbc1d194310.PNG)
 
 Looking at the graph produced in question 2, we are able to determine that these are the platforms that have the longest to shortest platform in order: Netflix, Hulu, Disney+, Prime Video.
 
