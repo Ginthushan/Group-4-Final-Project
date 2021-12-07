@@ -123,3 +123,16 @@ avg_run['Runtime'] = mean
 
 avg_run.plot.barh(x='Platform', y='Runtime',figsize=(10,6));
 ```
+
+
+To get the graph in Table 2, run the following code
+```python
+platform_totals = [netflix, hulu, prime, disney]
+
+res = plt.bar(listOfProvidersNames,platform_totals) # makes the data into a bar graph
+res[0].set_color('r') # changes one of the bar's colour red 
+res[1].set_color("g") # changes one of the bar's colour green
+res[3].set_color("#add8e6") # changes one of the bar's colour sky blue
+plt.title('Number of Movies on each platform') # 
+res = plt.show()
+```
